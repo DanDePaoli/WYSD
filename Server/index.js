@@ -4,3 +4,12 @@ const app = require("express");
 const port = 3100;
 
 app.use(express.json());
+app.use(express.static(path.join(_dirname,"../client/dist")));
+
+app.listen(Port, (err) => {
+if(err){
+  console.log(err);
+} else {
+  console.log("The server is listening on port ", port);
+}
+});
