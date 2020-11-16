@@ -8,4 +8,4 @@ So I decided to make my own, if for no other reason than practice.
 
 npm install
 npm start
-enjoy on port 1100
+enjoy on port 3100
