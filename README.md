@@ -7,5 +7,6 @@ Its fun, its frivolous, its not particularly hard to implement but I've been sur
 So I decided to make my own, if for no other reason than practice.
 
 npm install
+npm run build
 npm start
 enjoy on port 3100
