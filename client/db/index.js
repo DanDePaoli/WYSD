@@ -1,7 +1,7 @@
 var connection = mysql.createConnection({
   host: 'localhost',
   user: 'root',
-  database: 'bookingCalendar'
+  database: 'wdysd'
 });
 
 connection.connect((err) => {
