@@ -2,7 +2,7 @@ const db = require('./index.js');
 
 var platform = ['Airbnb', 'Ebay', 'Masterclass', 'Youtube', 'Cloud Storage Provider'];
 
-var customers = ['Dog Lovers', 'Witches', 'Anarchises', 'Harry Potter Nerds', 'Erland Enthusiasts', 'Sologamists'];
+var customers = ['Dog Lovers', 'Witches', 'Anarchises', 'Harry Potter Nerds', 'Erland Enthusiasts', 'Sologamists', 'professional bloggers'];
 
 // db.query(`insert into rentals (rental_name, rental_description, rating, guestMax, pricePerNight, discountPricePerNight, weeklyDiscount, cleaningFee, serviceFee, numOfReviews) values ("${randomRentalName}", "${randomDescription}", ${randomRating}, ${randomGuestMax}, ${randomPricePerNight}, ${randomDiscountedPricePerNight}, ${randomHasWeeklyDiscount}, ${randomCleaningFee}, ${randomServiceFee}, ${randomnumOfReviews})`, (err, results, fields) => {
 //   if (err) {
